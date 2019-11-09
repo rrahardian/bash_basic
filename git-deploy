@@ -14,7 +14,7 @@ then
 	git remote add origin $link
 	git push -u origin master
 else
-	read -r -p "Commit message: asdf" desc
+	read -r -p "Commit message: " desc
 	git add .
 	git add -u
 	git commit -m "$desc"
