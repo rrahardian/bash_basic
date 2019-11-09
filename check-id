@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo How old are you?
+
+read age
+
+if [ $age -gt 18 ]
+then
+	echo "Hop in"
+else
+	echo "Fuck outta here!"
+fi
