@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo Please state your name
+echo Greetings! Please state your name:
 
 read who
 
